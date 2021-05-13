@@ -2,8 +2,8 @@ body {
   user-select: none;
   -webkit-user-select: none;
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #fff;
-  color: #444;
+  background: #000;
+  color: #fff;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -20,7 +20,7 @@ body {
   right: 0;
   padding: 5px;
   font-size: 60%;
-  color: #ccc;
+  color: #555;
 }
 
 #control-box div {
@@ -29,7 +29,7 @@ body {
 }
 
 #control-box div:hover {
-  color: #444;
+  color: #333;
 }
 
 #edit-bookmarks {
@@ -56,14 +56,15 @@ body {
 .item, .title {
   transition: border-color 120ms ease-in-out;
   transition: background-color 120ms ease-in-out;
-  border: 1px solid rgba(255, 255, 255, 0);
-  background: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(200, 200, 200, 0.25);
+  background: #111;
   cursor: pointer;
   padding: 5px 7px;
   vertical-align: bottom;
   border-radius: 4px;
   max-width: 190px;
   display: inline-block;
+  margin: 2px;
 }
 
 .closed-folder {
@@ -71,8 +72,8 @@ body {
 }
 
 .item:hover, .title:hover {
-  border-color: rgba(200, 200, 200, 1);
-  background: #f8f8f8;
+  border-style: dashed;
+  background: rgba(255, 255, 255, 0);
 }
 
 .jail {

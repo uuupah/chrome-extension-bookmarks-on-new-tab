@@ -1,3 +1,5 @@
 bookmarks-on-new-tab-*.zip
 node_modules/
 package-lock.json
+bookmarks-on-new-tab.pem
+bookmarks-on-new-tab.crx
